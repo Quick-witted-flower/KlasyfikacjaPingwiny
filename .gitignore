@@ -4,22 +4,35 @@
 # Ignorowanie innych potencjalnie zbędnych plików
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
 # Ignorowanie plików i folderów systemowych
 .DS_Store
 Thumbs.db
 
-
 # Ignorowanie plików tymczasowych i cache
-.ipynb_checkpoints/
-__pycache__/
-*.py[cod]
 *.log
 *.sqlite3
+*.tmp
+*.~*
 
 # Ignorowanie danych wyjściowych
 *.h5
-
 *.parquet
+*.csv~
+*.xlsx~
+*.json~
 
+# Ignorowanie folderów wirtualnych środowisk
+venv/
+env/
+*.env
 
+# Ignorowanie plików IDE
+.idea/
+.vscode/
+*.iml
+
+# Ignorowanie plików wynikowych Jupyter Notebook
+*.nbconvert/
